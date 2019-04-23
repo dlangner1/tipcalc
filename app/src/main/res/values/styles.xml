@@ -7,5 +7,35 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="TipButtonStyle">
+        <item name="android:layout_width">149dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textSize">12pt</item>
+        <item name="android:bottomRightRadius">12dp</item>
+        <item name="android:bottomLeftRadius">12dp</item>
+        <item name="android:topRightRadius">12dp</item>
+        <item name="android:topLeftRadius">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button</item>
+        <item name="android:layout_marginTop">46dp</item>
+        <item name="android:layout_marginLeft">131dp</item>
+        <item name="android:layout_marginStart">131dp</item>
+        <item name="android:layout_marginEnd">131dp</item>
+        <item name="android:layout_marginRight">131dp</item>
+    </style>
+    <style name="MoneyEditTextStyle">
+        <item name="android:layout_width">318dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ems">12</item>
+        <item name="android:textSize">15pt</item>
+        <item name="android:layout_marginLeft">46dp</item>
+        <item name="android:layout_marginStart">46dp</item>
+        <item name="android:layout_marginTop">153dp</item>
+        <item name="android:layout_marginEnd">47dp</item>
+        <item name="android:layout_marginRight">47dp</item>
+    </style>
 
 </resources>
