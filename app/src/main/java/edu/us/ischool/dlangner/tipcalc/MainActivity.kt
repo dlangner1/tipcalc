@@ -14,11 +14,15 @@ import java.text.NumberFormat
 class MainActivity : AppCompatActivity() {
 
     lateinit var editText: EditText
+    lateinit var tipButton: Button
     private var current = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        tipButton = findViewById(R.id.button_tip)
+        tipButton.isEnabled = false
 
         setupEditTextView()
     }
@@ -43,7 +47,11 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-            override fun afterTextChanged(s: Editable?) {}
+            override fun afterTextChanged(s: Editable?) {
+                if (current != "") {
+                    tipButton.isEnabled = true
+                }
+            }
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
         })
     }

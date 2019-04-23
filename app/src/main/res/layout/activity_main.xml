@@ -17,7 +17,7 @@
 
     <Button
             android:id="@+id/button_tip"
-            android:text="Tip"
+            android:text="15% Tip"
             android:onClick="displayTip"
             app:layout_constraintTop_toBottomOf="@+id/money_et" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
